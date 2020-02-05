@@ -43,7 +43,8 @@ FlowManager.prototype.diversion = function diversion (next) {
 };
 
 function capitalize (string) {
-  return string.charAt(0).toUpperCase() + string.slice(1)
+  return string
+  // return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 function datetimeFromISO (string) {

@@ -2,7 +2,8 @@ import { DateTime, Info, Settings } from 'luxon'
 import FlowManager from './FlowManager'
 
 export function capitalize (string) {
-  return string.charAt(0).toUpperCase() + string.slice(1)
+  return string
+  // return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 export function datetimeFromISO (string) {
